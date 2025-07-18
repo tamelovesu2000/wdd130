@@ -3,28 +3,23 @@
 	padding: 0;
 }
 
+
 main {
 	max-width: 800px;
 	margin: 2rem auto;
 	font-family: Roboto, Arial, sans-serif;
 }
 
-h1 {
-	text-align: center;
-	font-size: 1.5rem;
-	text-shadow: 3px 3px 5px #777;
-}
 
-.herodiv {
+
+ .herodiv {
 	margin: 10px auto;
-	position: relative; /* If removed, what happens? */ /* 
-
-When I remove the position: relative; property from the .herodiv container, 
-the .stats box moves away from the image and appears at the bottom-left corner of the whole page. 
-This happens because .stats uses position: absolute, and it needs a parent with position: relative 
-to stay correctly positioned on the image.
-*/
+	position: relative; /* 
+	Enables absolutely positioned children (.stats) to be positioned relative to this container.
+	If removed, .stats will position relative to the entire page.
+	*/
 }
+
 
 .herodiv img {
 	width: 100%;
@@ -57,10 +52,9 @@ footer {
 	padding: 0.5rem;
 	color: navy;
 	font-weight: 700;
-	font-style: italic; /* 
-
-The footer uses position: fixed;, which means it stays at the bottom of the screen at all times, 
-even when the user scrolls. It does not move with the rest of the page content. 
-This keeps the footer always visible at the bottom of the screen.
-*/
+	font-style: italic;
+	/* 
+	The footer stays visible at the bottom of the screen at all times,
+	even when the user scrolls.
+	*/
 }
