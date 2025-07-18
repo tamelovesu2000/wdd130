@@ -1,8 +1,8 @@
 nav
-{background-color: darkblue;
-padding: 10px;
+    {
+    background-color: darkblue;
+    padding: 10px;
 }
-
 nav a {
     color: white;
     display: block;
@@ -13,7 +13,7 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
