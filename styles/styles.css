@@ -29,17 +29,18 @@ aside {
 
     width: 20em;
     margin: 1rem;
-    border: 1px solid rgb (0, 0,0, 0.2) ;/*why use rgb instead of hex here?*/
+    border: 1px solid rgb (0, 0,0, 0.2);
     padding: 1em ;
     background-color: #eee;
     color:#333 ;
     text-align:center ;
-    
 }
+    
+
 
 aside img{
     width: 150px;
-    height:auto;
+    height :auto;
 }
 
 footer {
