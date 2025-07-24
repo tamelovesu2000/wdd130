@@ -2,12 +2,13 @@
 :root {
   --primary-color: #1d3557;
   --secondary-color: #457b9d;
-  --accent1-color: #f1faee;
+  --accent1-color: #222222;  /* dark gray for clear text */
   --accent2-color: #e63946;
 
   --heading-font: 'Merriweather', serif;
   --body-font: 'Roboto', sans-serif;
 }
+
 
 /* Reset default box model */
 * {
