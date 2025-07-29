@@ -111,19 +111,25 @@ section img {
 
 /* Footer */
 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
   background-color: var(--primary-color);
   color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
 }
 
-.socialmedia a {
-  text-decoration: none;
-  margin: 0 8px;
+footer p {
+  margin: 0;
+  font-family: var(--body-font);
 }
 
-.socialmedia img {
-  height: 24px;
-  vertical-align: middle;
+footer .social {
+  display: flex;
+  gap: 1rem;
+}
+
+footer .social img {
+  width: 30px;
+  height: 30px;
 }
