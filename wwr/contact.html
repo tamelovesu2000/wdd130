@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About our rafting company" />
+  <meta name="author" content="Otame ThankGod" />
+  <title>Contact Us - Whitewater Rafting</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/rafting.css">
+
+</head>
+<body>
+  <header>
+  <img src="images/logo.png" alt="Dry Oar Logo">
+  <h1>Dry Oar</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="trips.html">Trips</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<main>
+  <section class="contact-info">
+    <h2>Contact Information</h2>
+    <p>Address: 123 River Run Road, Boise, ID 83702</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Email: info@dryoar.com</p>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=..." 
+      width="600" height="450" allowfullscreen="" loading="lazy">
+    </iframe>
+  </section>
+
+  <section class="employees">
+    <h2>Meet Our Team</h2>
+    <figure>
+      <img src="images/employee1.jpg" alt="John - Tour Guide">
+      <figcaption>John - Tour Guide</figcaption>
+    </figure>
+    <figure>
+      <img src="images/employee2.jpg" alt="Sarah - Reservation Manager">
+      <figcaption>Sarah - Reservation Manager</figcaption>
+    </figure>
+    <figure>
+      <img src="images/employee3.jpg" alt="Mike - Safety Instructor">
+      <figcaption>Mike - Safety Instructor</figcaption>
+    </figure>
+  </section>
+
+  <section class="contact-form">
+    <h2>Send Us a Message</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <p>Purpose of the message:</p>
+      <input type="radio" id="inquiry" name="purpose" value="inquiry">
+      <label for="inquiry">General Inquiry</label><br>
+
+      <input type="radio" id="reservation" name="purpose" value="reservation">
+      <label for="reservation">Reservation Question</label><br>
+
+      <input type="radio" id="suggestion" name="purpose" value="suggestion">
+      <label for="suggestion">Website Suggestion</label><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="30"></textarea><br>
+
+      <input type="checkbox" id="subscribe" name="subscribe">
+      <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+
+
+<footer>
+  <p>&copy; 2025 Dry Oar | Otame ThankGod</p>
+  <div class="social">
+    <img src="images/facebook.png" alt="Facebook">
+    <img src="images/twitter.png" alt="Twitter">
+    <img src="images/instagram.png" alt="Instagram">
+    <p><a href="images/contact-wireframe.png">View Wireframe</a></p>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
