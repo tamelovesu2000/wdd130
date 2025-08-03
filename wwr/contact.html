@@ -60,11 +60,19 @@
   <section class="contact-form">
     <h2>Send Us a Message</h2>
     <form action="#" method="post">
+      <div>
+
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required><br>
+      <input type="text" id="name" name="name" required>
+      </div>
+
+      <div>
 
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required><br>
+      <input type="email" id="email" name="email" required>
+      </div>
+
+      <div>
 
       <p>Purpose of the message:</p>
       <input type="radio" id="inquiry" name="purpose" value="inquiry">
@@ -74,13 +82,22 @@
       <label for="reservation">Reservation Question</label><br>
 
       <input type="radio" id="suggestion" name="purpose" value="suggestion">
-      <label for="suggestion">Website Suggestion</label><br>
+      <label for="suggestion">Website Suggestion</label>
+      </div>
+
+      <div>
 
       <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="5" cols="30"></textarea><br>
+      <textarea id="message" name="message" rows="5" cols="30"></textarea>
+      </div>
+
+      <div>
 
       <input type="checkbox" id="subscribe" name="subscribe">
-      <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+      <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+      </div>
+
+      <div>
 
       <button type="submit">Send Message</button>
     </form>
