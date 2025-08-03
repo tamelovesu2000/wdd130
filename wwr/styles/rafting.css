@@ -133,3 +133,112 @@ footer .social img {
   width: 30px;
   height: 30px;
 }
+
+footer .social img {
+  width: 30px;
+  height: 30px;
+}
+
+/* ==Contact Page Styles == */
+
+/* Employee section */
+.employees {
+  text-align: center;
+  padding: 2rem;
+}
+
+.employees figure {
+  display: inline-block;
+  margin: 1rem;
+}
+
+.employees img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+}
+
+.employees figcaption {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-family: var(--body-font);
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  padding: 0.5rem;
+}
+
+.contact-form button {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-form button:hover {
+  background-color: var(--primary-color);
+}
+
+/* Contact Information Section (with Google Map) */
+.contact-info {
+  padding: 1.5rem;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.contact-info iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  margin-top: 1rem;
+}
+
+/* Wireframe link in footer */
+footer a {
+  color: var(--accent2-color);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: white;
+}
+
