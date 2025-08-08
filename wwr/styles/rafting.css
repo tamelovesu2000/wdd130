@@ -76,8 +76,8 @@ nav a {
 
 .hero h1 {
   position: absolute;
-  top: 20px;
-  width: 100%;
+  top: 14px;
+  width: 99%;
   padding: 16px;
   text-align: center;
   opacity: 0.7;
@@ -89,7 +89,7 @@ nav a {
 .hero article {
   position: absolute;
   bottom: 20px;
-  left: 20px;
+  left: 10px;
   background-color: rgba(0,0,0,0.5);
   color: white;
   padding: 1rem;
