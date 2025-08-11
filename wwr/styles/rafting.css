@@ -25,11 +25,12 @@ body {
   background-color: white;
 }
 
-/* Container layout */
 header, main, footer {
-  width: 840px;
+  max-width: 840px;
   margin: 0 auto;
+  width: 100%;
 }
+
 
 /* Headings */
 h1, h2 {
@@ -46,7 +47,7 @@ nav, p, section, article {
 /* Header */
 header {
   background-color: var(--primary-color);
-  color: var(--accent2-color);
+  color: white; /* fixed for better contrast */
   padding: 1rem;
   display: grid;
   grid-template-columns: auto 1fr; /* logo + nav */
@@ -68,6 +69,10 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--accent2-color); /* hover highlight */
 }
 
 /* Hero Section */
@@ -243,4 +248,33 @@ footer a {
 footer a:hover {
   color: white;
 }
+
+/* Home Grid Section */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.home-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+/* Add this below */
+.grid-trips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.trip-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
 
