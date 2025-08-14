@@ -1,58 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Explore our whitewater rafting trips for all skill levels." />
-  <meta name="author" content="Otame ThankGod" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore our whitewater rafting trips for all skill levels.">
+  <meta name="author" content="Otame ThankGod">
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <title>Trips - Whitewater Rafting</title>
-  <link rel="stylesheet" href="styles/rafting.css" />
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="Rafting Logo" class="logo" />
+    <a href="index.html">
+      <img src="images/logo.png" alt="Whitewater Rafting Company Logo" class="logo">
+    </a>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
-      <a href="trips.html">Trips</a>
+      <a href="trips.html" class="active">Trips</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
-    <section class="page-intro">
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/trips-hero.jpg" alt="Rafting group on the river">
       <h1>Our Rafting Trips</h1>
+    </section>
+
+    <!-- Intro -->
+    <section class="page-intro">
       <p>Choose from a variety of adventures for all ages and experience levels.</p>
     </section>
 
+    <!-- Trips Grid -->
     <section class="trips-grid">
       <div class="trip-card">
-        <img src="images/adventure4.jpg" alt="Extreme Rapids">
+        <img src="images/adventure4.jpg" alt="Rafters paddling through extreme Class V rapids">
         <h2>Extreme Rapids</h2>
-        <p>For thrill-seekers: Navigate Class V rapids with expert guides. 5 hours.</p>
+        <p>For thrill-seekers: Navigate Class V rapids with expert guides. Duration: 5 hours.</p>
         <a href="contact.html" class="btn">Book Now</a>
       </div>
+
       <div class="trip-card">
-        <img src="images/adventure5.jpg" alt="Scenic River">
+        <img src="images/adventure5.jpg" alt="Group enjoying a scenic river float with calm waters">
         <h2>Scenic River Float</h2>
-        <p>A calm, relaxing ride perfect for beginners and families. 3 hours.</p>
+        <p>A calm, relaxing ride perfect for beginners and families. Duration: 3 hours.</p>
         <a href="contact.html" class="btn">Book Now</a>
       </div>
+
       <div class="trip-card">
-        <img src="images/rafting1.jpg" alt="Half-Day Adventure">
+        <img src="images/rafting1.jpg" alt="Raft navigating mild rapids on a half-day adventure">
         <h2>Half-Day Adventure</h2>
-        <p>Experience exciting rapids and stunning views. Ideal for newcomers. 2.5 hours.</p>
+        <p>Experience exciting rapids and stunning views. Ideal for newcomers. Duration: 2.5 hours.</p>
         <a href="contact.html" class="btn">Book Now</a>
       </div>
+    </section>
+
+    <!-- Trip Details Table -->
+    <section class="trip-details">
+      <h2>Trip Information</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Trip Name</th>
+            <th>Location</th>
+            <th>Difficulty</th>
+            <th>Duration</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Extreme Rapids</td>
+            <td>Thunder River</td>
+            <td>Advanced</td>
+            <td>5 hours</td>
+            <td>$150</td>
+          </tr>
+          <tr>
+            <td>Scenic River Float</td>
+            <td>Crystal Creek</td>
+            <td>Beginner</td>
+            <td>3 hours</td>
+            <td>$90</td>
+          </tr>
+          <tr>
+            <td>Half-Day Adventure</td>
+            <td>Bear Canyon</td>
+            <td>Intermediate</td>
+            <td>2.5 hours</td>
+            <td>$110</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <p>Ready for your next adventure? <a href="contact.html" class="btn">Contact us today</a> to book your trip.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Whitewater Rafting | Follow us:
-      <a href="#"><img src="images/facebook.png" alt="Facebook" width="20"></a>
-      <a href="#"><img src="images/instagram.png" alt="Instagram" width="20"></a>
-      <a href="#"><img src="images/twitter.png" alt="Twitter" width="20"></a>
-    </p>
+    <p>&copy; 2025 Whitewater Rafting | Site by Otame ThankGod | Follow us:</p>
+    <a href="#"><img src="images/facebook.png" alt="Facebook" width="20"></a>
+    <a href="#"><img src="images/instagram.png" alt="Instagram" width="20"></a>
+    <a href="#"><img src="images/twitter.png" alt="Twitter" width="20"></a>
+    <a href="https://app.moqups.com" target="_blank">Wireframe</a>
   </footer>
 </body>
 </html>

@@ -276,5 +276,20 @@ footer a:hover {
   border-radius: 8px;
 }
 
+/* Add this directly after the .trip-card img block */
+.trip-card h3 {
+  margin-top: 0.5rem;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.trip-card p {
+  font-family: var(--body-font);
+  font-size: 0.9rem;
+  color: var(--accent1-color);
+  text-align: center;
+}
+
 
 
